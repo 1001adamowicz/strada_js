@@ -1,3 +1,55 @@
+let addUser = 2;
+addUser++;
+console.log(addUser);
+
+let removeUser = 2;
+removeUser--;
+console.log(removeUser);
+
+let usersCounter = 0;
+let newUsers = ++usersCounter;
+console.log(usersCounter);
+
+
+
+
+
+
+/*let resultOne = 1 + 2;
+
+resultTwo = resultOne;
+resultThree = resultOne;
+
+console.log(resultOne);
+console.log(resultTwo);
+console.log(resultThree);
+*/
+
+
+//применение оператора сложение к строкам 
+/*let resultOne = "JS" + " " + "практика" + " " + "страда";
+console.log(resultOne);*/
+
+
+/*
+console.log( "ананас" > "яблоко" );//trye
+console.log( "2" > "1 + 2" );//false
+console.log( undefined == null );//false
+console.log( undefined === null );//trye
+console.log( null == "\n0\n" );//trye
+console.log( null === +"\n0\n" );//false
+*/
+
+
+/*Операторы сравнения
+let a = 0;
+console.log( Boolean(a) ); // false
+let b = "0";
+console.log( Boolean(b) ); // true
+console.log( a == b); // true!
+*/
+
+
 /*let usersCounter = 0;
 let newUsers = ++usersCounter;
 console.log(newUsers);
