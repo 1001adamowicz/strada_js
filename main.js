@@ -1,4 +1,103 @@
-let addUser = 2;
+let hour = 12;
+let isWeekend = true;
+
+if (hour < 10 || hour > 18 || isWeekend) {
+  alert( 'Офис закрыт.' ); // это выходной
+}
+
+
+
+
+/*if (1 || 0) { // работает как if( true || false )
+    alert( 'truthy!' );
+  }
+*/
+
+
+/*let a = +prompt(`Enter value A`, ``);
+let b = +prompt ('Enter value B', '');
+let result = (a + b <4) ? `Мало` : `Много`;
+alert (result);
+*/
+
+
+
+/*let numeric = prompt ('Покажите знак числа?', '');
+
+if (numeric > 0) {
+    alert ('1, если значение больше нуля');
+} else if (numeric < 0) {
+    alert ('-1, если значение меньше нуля');
+} else {
+    alert( 0 );
+  }
+*/
+
+
+/*let nameCompany = prompt('Какое «официальное» название JavaScript?', '');
+
+if (nameCompany == 'ECMAScript') {
+    alert('Верно!');
+  } else {
+    alert('Не знаете? ECMAScript!');
+  }
+*/
+
+
+/*// Ветвление и логические операторы
+let year = prompt('В каком году была опубликована спецификация ECMAScript-2015?', '');
+
+if (year < 2015) {
+  alert( 'Это слишком рано...' );
+} else if (year > 2015) {
+  alert( 'Это поздновато' );
+} else {
+  alert( 'Верно!' );
+}
+*/
+
+/*let accessAllowed;
+let age = prompt ('Сколько вам лет?', '');
+
+if (age > 18) {
+    accessAllowed = true;
+    alert ('клуб старперов');
+} else {
+    accessAllowed = false;
+    alert ('ты ещё молой');
+}
+
+alert (accessAllowed);
+*/
+
+/*let age = prompt('Возраст?', 34);
+
+if (age < 3) {
+    message = 'Здравствуй, малыш!';
+  } else if (age < 18) {
+    message = 'Привет!';
+  } else if (age < 100) {
+    message = 'Здравствуйте!';
+  } else {
+    message = 'Какой необычный возраст!';
+  }
+
+alert( message );
+*/
+
+
+/*let company = prompt('Какая компания создала JavaScript?', '');
+
+(company == 'Netscape') ?
+   alert('Верно!') : alert('Неправильно.');
+
+let year = prompt('В каком году была опубликована спецификация ECMAScript-2015?', '');
+(year == '2015') ?
+  alert ('Верно!') : alert ('Неверно');
+  */
+
+
+  /*let addUser = 2;
 addUser++;
 console.log(addUser);
 
@@ -9,10 +108,7 @@ console.log(removeUser);
 let usersCounter = 0;
 let newUsers = ++usersCounter;
 console.log(usersCounter);
-
-
-
-
+*/
 
 
 /*let resultOne = 1 + 2;
